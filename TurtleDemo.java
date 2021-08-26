@@ -29,7 +29,7 @@ public class TurtleDemo
         Turtle crush = new Turtle(ocean);
         crush.setPenColor(Color.ORANGE);
         crush.penDown();
-        
+
         /*
          * A method contains statements.
          * 
@@ -40,9 +40,9 @@ public class TurtleDemo
          * When invoking a method, arguments are passed in parentheses (e.g., 50).
          */
         crush.forward(50);  // comment at the end of a line
-        
+
         // this is a single-line comment (like # python)
-        
+
         /*
          * Identifiers are any combination of:
          *      letters
@@ -53,12 +53,29 @@ public class TurtleDemo
          *  These are various identifiers:
          */
         int y, x2, x_y, x$;
-        
+
         // this is not a valid identifier:
         //int 2y;
+
+        /*
+         * Identifiers are case sensitive (case matters).
+         * 
+         *  These are different identifiers:
+         */
+        Turtle squirt, SQUIRT, sQUirt;
+
+        /*
+         * By convention, constants are all uppercase.
+         *      Use an underscore to separate words.
+         */
+        int SPEED_OF_LIGHT = 300000000; // m/s
+
+        /* By convention, most other identifiers start with a lowercase letter.
+         *      Subsequent words start with an uppercase letter. (CamalCase)
+         */
+        World pacificOcean;
+
     }
 }
-
-
 
 
